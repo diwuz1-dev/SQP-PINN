@@ -1,0 +1,1 @@
+step,weighted_total_est,phi_pde,Ts_pde,Tf_pde,phi_left,phi_neumann,Ts_neumann,Tf_bottom,Tf_neumann,ic_phi,ic_Ts,ic_Tf,interface_T,interface_flux

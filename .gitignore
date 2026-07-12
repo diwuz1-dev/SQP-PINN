@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+.vscode/
+
+# Large local data / cache
+moose/.jitcache/
+moose/sqp_dataset.npz
+moose/reference_data/no_adv_320x256/single_T_no_adv_320x256_reference.npz

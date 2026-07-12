@@ -1,0 +1,11 @@
+[?2004h(base) ]0;~/sqp[01;34m~/sqp[00m$ [3m!which ptxas[23m
+[3m!ptxas --version[23m
+[3m!nvidia-smi | head[23m
+MMM[C[C[C[C[C[C[C[C[C[C[C[C[C[C!which ptxas
+!ptxas --version
+!nvidia-smi | head
+M
+[?2004lbash: !which: event not found
+bash: !ptxas: event not found
+bash: !nvidia: event not found
+[?2004h(base) ]0;~/sqp[01;34m~/sqp[00m$ 

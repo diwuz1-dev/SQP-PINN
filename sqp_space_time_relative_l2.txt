@@ -1,0 +1,16 @@
+SPACE-TIME RELATIVE L2 ERROR
+========================================
+theta file: /projects/549120ce-e7e0-45e0-a453-c9903649fea2/sqp/theta_sqp_coupled_fixedbatch_jitter3.npy
+reference file: /projects/549120ce-e7e0-45e0-a453-c9903649fea2/sqp/moose/sqp_dataset.npz
+
+phi on fuel:    8.295319892059e-03
+Ts on fuel:     5.128629736848e-02
+Tf on coolant:  3.100056679181e-01
+
+Raw integral values:
+phi numerator: 4.470516448615e-06
+phi denominator: 6.496679172804e-02
+Ts numerator: 8.897539982536e-04
+Ts denominator: 3.382729384077e-01
+Tf numerator: 6.070996273869e-03
+Tf denominator: 6.317142851757e-02

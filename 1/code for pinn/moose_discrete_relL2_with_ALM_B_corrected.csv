@@ -1,0 +1,4 @@
+method,checkpoint,checkpoint_step,metric,reference_dataset,grid_t,grid_x,grid_y,fuel_mask,coolant_mask,phi_rel_l2,Ts_rel_l2,Tf_rel_l2,rho_growth,rho_max,improve_threshold,notes
+Adam,adam_jax_moose_output/checkpoint_latest.pkl,50000,discrete-grid space-time relative L2,moose/sqp_dataset.npz,1001,513,513,x < 0.4 - 1e-12,x > 0.4 + 1e-12,6.101399e-02,9.925167e-02,3.539599e-01,,,,Same discrete-grid evaluation metric.
+ALM-B,theta_alm_coupled_lbfgsb_fixed_no_noise_best.npy,,discrete-grid space-time relative L2,moose/sqp_dataset.npz,1001,513,513,x < 0.4 - 1e-12,x > 0.4 + 1e-12,1.032151e-02,4.906019e-02,3.008981e-01,1.2,1e2,0.90,Corrected ALM-B results.
+Sto-SQP,theta_sqp_coupled_fixedbatch_jitter1.npy,,discrete-grid space-time relative L2,moose/sqp_dataset.npz,1001,513,513,x < 0.4 - 1e-12,x > 0.4 + 1e-12,3.980897e-03,5.097354e-02,3.095380e-01,,,,Fixed-batch jitter1 checkpoint.
